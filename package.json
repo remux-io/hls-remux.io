@@ -1,0 +1,88 @@
+{
+  "name": "hls-remux.io",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "version": "1.0.0",
+  "description": "remux hls",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remux-io/hls-remux.io.git"
+  },
+  "homepage": "hhttps://github.com/remux-io/hls-remux.io",
+  "author": "remux.io",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.2",
+    "body-parser": "^1.15.2",
+    "chalk": "^1.1.3",
+    "cli-table2": "^0.2.0",
+    "cors": "^2.8.1",
+    "debug": "^2.3.2",
+    "docdash": "^0.4.0",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "figlet": "^1.2.0",
+    "hls-parser.remux.io": "git+https://github.com/remux-io/hls-parser-remux.io.git",
+    "jsdoc": "^3.4.2",
+    "lo-jsondb": "^1.3.0",
+    "method-override": "^2.3.6",
+    "mkdirp": "^0.5.1",
+    "mongoose": "^4.6.8",
+    "morgan": "^1.7.0",
+    "nconf": "^0.8.4",
+    "path-parse": "^1.0.5",
+    "redis": "^2.6.3",
+    "rotating-file-stream": "^1.1.0",
+    "serve-favicon": "^2.3.2",
+    "uuid": "^2.0.3"
+  },
+  "os": [
+    "win32",
+    "linux"
+  ],
+  "cpu": [
+    "x64",
+    "x86",
+    "arm"
+  ],
+  "keywords": [
+    "ffmpeg",
+    "node",
+    "monitoring",
+    "cli",
+    "service",
+    "remux",
+    "video",
+    "framework",
+    "system",
+    "tool",
+    "node.js monitoring",
+    "reload",
+    "transcoding",
+    "cli",
+    "movie",
+    "stats",
+    "proc",
+    "cpu",
+    "memory",
+    "cpu affinity",
+    "demon",
+    "log",
+    "logger",
+    "rotate",
+    "dashboard"
+  ],
+  "devDependencies": {
+    "nodejs-dashboard": "^0.1.1",
+    "nodemon": "^1.11.0",
+    "webpack-dashboard": "^0.2.0"
+  },
+  "runtime": {
+    "framework": "node",
+    "version": "6.8.1",
+    "js-flags": "--use_strict",
+    "ignoreFlags": true
+  }
+}
